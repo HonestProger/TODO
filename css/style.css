@@ -96,43 +96,43 @@ html{
 .main__content {
     
 }
-.flex-column {
+.board {
     display: flex;
     padding: 20px 30px;
     gap: 20px;
 
 }
-.flex-column__item {
+.board__item {
     width: 100%;
 }
-.color-card--highlight-blue {  
+.card--highlight-blue {  
     border-top: 4px solid #36B1F7;
 }
-.color-card--highlight-dark-blue {
+.card--highlight-dark-blue {
     border-top: 4px solid #0315BE;
 }
-.color-card--highlight-red {
+.card--highlight-red {
     border-top: 4px solid #E30909;
 }
-.color-card--highlight-yellow {
+.card--highlight-yellow {
     border-top: 4px solid #E2A60C;
 }
-.color-card--highlight-green {
+.card--highlight-green {
     border-top: 4px solid #05B417;
 }
-.color-card {
+.card {
     width: 100%;
     padding: 12px 15px 20px;
     background: #F2F2F2;
 }
-.color-card__title {
+.card__title {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     color: #151515;
 }
-.color-card__subtitle {
+.card__subtitle {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -140,7 +140,7 @@ html{
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #8C8B8D;
 }
-.color-card__content {
+.card__content {
     margin-top: 15px;
     display: flex;
     flex-direction: column;
@@ -178,7 +178,7 @@ html{
 }
 
 @media (max-width: 768px) {
-    .flex-column {
+    .board {
         flex-wrap: wrap;
     }
     .header {
@@ -195,7 +195,7 @@ html{
         margin: 35px 0px 20px 0px;
         justify-content: space-around;
     }
-    .flex-column {
+    .board {
         padding: 20px 0px;
     }
 }
