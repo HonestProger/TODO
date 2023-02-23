@@ -27,7 +27,7 @@ html{
     color: #151515;
 }
 
-.search {
+.header__search {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -51,13 +51,13 @@ html{
     line-height: 16px;
 }
 
-.button {
+.search__button {
     width: 70px;
     height: 36px;
 
 }
 
-.search__button {
+.button {
     width: 100%;
     height: 100%;
     background: #1844B6;
@@ -146,12 +146,12 @@ html{
     flex-direction: column;
     gap: 10px;
 }
-.white-box {
+.task {
     width: 100%;
     background: #FFFFFF;
     padding: 11px 12px 11px 13px;
 }
-.white-box__title {
+.task__title {
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -160,14 +160,14 @@ html{
     color: #1844B6;
     margin-bottom: 9px;
 }
-.white-box__content {
+.task__content {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
     color: #8C8B8D;
 }
-.white-box__footer {
+.task__footer {
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
