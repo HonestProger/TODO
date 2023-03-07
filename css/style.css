@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+.layout{
+    padding: 35px 30px 0px 30px;
+}
+
 html{
     font-family: 'Raleway';
 }
@@ -14,7 +18,7 @@ html{
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 35px 30px 20px 30px;
+    padding-bottom: 20px;
 }
 
 .header__title {
@@ -77,13 +81,6 @@ html{
 }
 
 
-.search-button {
-    width: 70px;
-    height: 36px;
-    background: #1844B6;
-    cursor: pointer;
-    border: none;
-}
 
 
 
@@ -98,33 +95,18 @@ html{
 }
 .board {
     display: flex;
-    padding: 20px 30px;
     gap: 20px;
 
 }
 .board__item {
     width: 100%;
 }
-.card--highlight-blue {  
-    border-top: 4px solid #36B1F7;
-}
-.card--highlight-dark-blue {
-    border-top: 4px solid #0315BE;
-}
-.card--highlight-red {
-    border-top: 4px solid #E30909;
-}
-.card--highlight-yellow {
-    border-top: 4px solid #E2A60C;
-}
-.card--highlight-green {
-    border-top: 4px solid #05B417;
-}
 .card {
     width: 100%;
     padding: 12px 15px 20px;
     background: #F2F2F2;
 }
+
 .card__title {
     font-style: normal;
     font-weight: 700;
@@ -176,7 +158,21 @@ html{
     color: #151515;
     margin-top: 9px;
 }
-
+.card--highlight-blue {  
+    border-top: 4px solid #36B1F7;
+}
+.card--highlight-dark-blue {
+    border-top: 4px solid #0315BE;
+}
+.card--highlight-red {
+    border-top: 4px solid #E30909;
+}
+.card--highlight-yellow {
+    border-top: 4px solid #E2A60C;
+}
+.card--highlight-green {
+    border-top: 4px solid #05B417;
+}
 @media (max-width: 768px) {
     .board {
         flex-wrap: wrap;
@@ -186,17 +182,18 @@ html{
         align-items: center;
         gap: 10px;
         flex-direction: column;
-        margin: 35px 0px 20px 0px;
     }
 }
 @media (max-width: 1024px) {
     .header {
         display: flex;
-        margin: 35px 0px 20px 0px;
         justify-content: space-around;
     }
     .board {
         padding: 20px 0px;
+    }
+    .layout{
+        padding: 25px 5px 0px 5px;
     }
 }
 @media (max-width: 320px) {
@@ -204,7 +201,7 @@ html{
         width: 230px;
         height: 36px;
     }
-    .button {
+    .search__button {
         width: 60px;
         height: 36px;
     
